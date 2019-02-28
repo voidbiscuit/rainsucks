@@ -21,7 +21,7 @@
     <ClCompile Include="rainsucks\GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rainsucks\Main.cpp">
+    <ClCompile Include="rainsucks\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="rainsucks\Map.cpp">
@@ -36,9 +36,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="rainsucks\GameObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="rainsucks\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="rainsucks\Map.h">

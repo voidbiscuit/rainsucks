@@ -9,11 +9,12 @@ class Game
 {
 
 public:
+	// Init Game
 	Game();
-	Game(int width, int height);
 
-
-
+	// World Handling
+	void addWorld(World world);
+	World getWorld(string identifier);
 
 private:
 	// Constants

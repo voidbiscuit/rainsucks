@@ -1,11 +1,14 @@
 #include "World.h"
 
 
-World::World()
+World::World(string identifier)
 {
-
+	this->identifier = identifier;
 }
 
+string World::getIdentifier() {
+	return this->identifier;
+}
 
 // Map Handling
 void World::setMap(Map map) {
